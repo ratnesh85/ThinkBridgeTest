@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="4" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-09-15 06:49:12Z" end-time="2019-09-15 06:50:53Z" duration="101.776207">
+  <command-line><![CDATA[nunit3-console.exe  "C:\Users\Ratnesh\Desktop\Selenium Webdriver\SetupingEnv\Autotestframework\AutoTestFramework\AutoTestFramework\bin\Debug\AutoTestFramework.exe"]]></command-line>
+  <test-suite type="Assembly" id="0-1007" name="AutoTestFramework.exe" fullname="C:\Users\Ratnesh\Desktop\Selenium Webdriver\SetupingEnv\Autotestframework\AutoTestFramework\AutoTestFramework\bin\Debug\AutoTestFramework.exe" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:50:53Z" duration="100.339153" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 10.0.17134.0" platform="Win32NT" cwd="C:\Users\Ratnesh\Desktop\Selenium Webdriver\SetupingEnv\Autotestframework\AutoTestFramework\packages\NUnit.ConsoleRunner.3.10.0\tools" machine-name="DESKTOP-8AETF4A" user="Ratnesh" user-domain="DESKTOP-8AETF4A" culture="en-US" uiculture="en-US" os-architecture="x86" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Ratnesh\Desktop\Selenium Webdriver\SetupingEnv\Autotestframework\AutoTestFramework\packages\NUnit.ConsoleRunner.3.10.0\tools" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.1" />
+      <setting name="ImageRequiresX86" value="True" />
+      <setting name="RunAsX86" value="True" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="4608" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="TestSuite" id="0-1008" name="AutoTestFramework" fullname="AutoTestFramework" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:50:53Z" duration="100.315611" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+      <test-suite type="TestSuite" id="0-1009" name="Scenarios" fullname="AutoTestFramework.Scenarios" runstate="Runnable" testcasecount="4" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:50:53Z" duration="100.315134" total="4" passed="4" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="4">
+        <test-suite type="TestSuite" id="0-1010" name="InvalidLogin" fullname="AutoTestFramework.Scenarios.InvalidLogin" runstate="Runnable" testcasecount="3" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:50:33Z" duration="79.706010" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+          <test-suite type="TestFixture" id="0-1004" name="InvalidPassword" fullname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword" classname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword" runstate="Runnable" testcasecount="2" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:50:12Z" duration="59.072334" total="2" passed="2" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="2">
+            <test-case id="0-1006" name="RptWrongPassword" fullname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword.RptWrongPassword" methodname="RptWrongPassword" classname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword" runstate="Runnable" seed="1632756299" result="Passed" start-time="2019-09-15 06:49:13Z" end-time="2019-09-15 06:49:43Z" duration="30.272598" asserts="1" />
+            <test-case id="0-1005" name="WrongPassword" fullname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword.WrongPassword" methodname="WrongPassword" classname="AutoTestFramework.Scenarios.InvalidLogin.InvalidPassword" runstate="Runnable" seed="1036503474" result="Passed" start-time="2019-09-15 06:49:43Z" end-time="2019-09-15 06:50:12Z" duration="28.783394" asserts="1" />
+          </test-suite>
+          <test-suite type="TestFixture" id="0-1002" name="InvalidUsername" fullname="AutoTestFramework.Scenarios.InvalidLogin.InvalidUsername" classname="AutoTestFramework.Scenarios.InvalidLogin.InvalidUsername" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-09-15 06:50:12Z" end-time="2019-09-15 06:50:33Z" duration="20.611061" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <test-case id="0-1003" name="WrongUsername" fullname="AutoTestFramework.Scenarios.InvalidLogin.InvalidUsername.WrongUsername" methodname="WrongUsername" classname="AutoTestFramework.Scenarios.InvalidLogin.InvalidUsername" runstate="Runnable" seed="1675072130" result="Passed" start-time="2019-09-15 06:50:12Z" end-time="2019-09-15 06:50:33Z" duration="20.610807" asserts="1" />
+          </test-suite>
+        </test-suite>
+        <test-suite type="TestFixture" id="0-1000" name="ValidLogin" fullname="AutoTestFramework.Scenarios.ValidLogin" classname="AutoTestFramework.Scenarios.ValidLogin" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-09-15 06:50:33Z" end-time="2019-09-15 06:50:53Z" duration="20.609027" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <test-case id="0-1001" name="ValidLogin1" fullname="AutoTestFramework.Scenarios.ValidLogin.ValidLogin1" methodname="ValidLogin1" classname="AutoTestFramework.Scenarios.ValidLogin" runstate="Runnable" seed="601184100" result="Passed" start-time="2019-09-15 06:50:38Z" end-time="2019-09-15 06:50:53Z" duration="14.708787" asserts="1" />
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
